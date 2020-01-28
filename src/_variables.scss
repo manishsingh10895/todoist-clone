@@ -1,0 +1,30 @@
+$generic-box-shadow: rgba(255, 255, 255, 0.5);
+$generic-border: 1px solid #f1f1f1;
+$generic-bg: #db4c3f;
+
+:root {
+  --bg-l: 20;
+  --bg-h: 0;
+  --bg-s: 1;
+  --contrast-ratio: 30;
+}
+
+:root {
+  --pm-bg: hsl(var(--bg-h), 10%, 99%);
+  --sc-bg: #fafafa;
+  --alt-bg: hsl(var(--bg-h), 0%, 89%);
+  --pm-text-color: #0a0a0a;
+  --sc-text-color: #333;
+  --pm-color: #db4c3f;
+  --sc-color: #db4c3f;
+}
+
+.darkmode {
+  --pm-bg: hsl(var(--bg-h), 1%, 9%);
+  --alt-bg: hsl(var(--bg-h), 0%, 20%);
+  --sc-bg: #4a5459;
+  --pm-text-color: #f0f0f0;
+  --sc-text-color: #ccc;
+  --pm-color: #db4c3f;
+  --sc-color: #db4c3f;
+}

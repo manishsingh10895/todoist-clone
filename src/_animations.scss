@@ -1,0 +1,21 @@
+@keyframes translateLeft {
+  10% {
+    transform: translateX(10%);
+    opacity: 0.7;
+  }
+
+  80% {
+    transform: translateX(-80%);
+    opacity: 0.3;
+  }
+
+  99% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+}
